@@ -16,3 +16,9 @@
 `npm run dev` — запускает сервер с hot-reload
 
 ссылка на GitHub: https://github.com/Fronchik/movies-explorer-api.git
+
+IP 158.160.13.59
+
+Frontend https://diplom.nomoredomains.xyz/
+
+Backend https://api.diplom.nomoredomains.xyz/
