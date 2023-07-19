@@ -4,6 +4,7 @@ const { createUser, login } = require('../controllers/users');
 const auth = require('../middlwares/auth');
 
 const userRoutes = require('./users');
+const movieRoutes = require('./movies');
 
 router.get('/crash-test', () => {
   setTimeout(() => {
@@ -29,5 +30,6 @@ router.post('/signup', celebrate({
 router.use(auth);
 
 router.use('/users', userRoutes);
+router.use('/movies', movieRoutes);
 
 module.exports = router;
