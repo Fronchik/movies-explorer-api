@@ -3,6 +3,7 @@ const allowedCors = [
   'http://localhost:3000',
   'https://fronchik.nomoredomains.work',
   'https://api.fronchik.nomoredomains.work',
+  'https://diplom.nomoredomains.xyz',
 ];
 
 const corsHandler = (req, res, next) => {
